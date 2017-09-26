@@ -10,8 +10,10 @@ class App extends React.Component {
     return (
       <div>
             <Header />
-            <Cards />
-            <Map />
+            <div className="content flex">
+                <Cards />
+                <Map />
+            </div>
             <Footer />
       </div>
     );

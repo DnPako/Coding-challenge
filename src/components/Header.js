@@ -17,7 +17,7 @@ class Header extends React.Component {
                 <div className="header-middle flex">
                     <img className="date circle" src="./style/assets/park.jpg" alt="date picture"/>
                     <div className="title">
-                        <h1>Date night restaurents</h1>
+                        <h1>Date night restaurants</h1>
                         <h4>Best place for a date night at New York City</h4>
                         <span>6M Followers</span>
                     </div>

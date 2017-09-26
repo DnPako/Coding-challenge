@@ -1,1 +1,1 @@
-export const TYPE_HERE = 'type_here';
+export const DISPLAY_DATA = 'display_data';
