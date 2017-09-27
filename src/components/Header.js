@@ -27,8 +27,15 @@ class Header extends React.Component {
                     </div>
                 </div>
                 <div className="header-bottom flex">
-                    <div>
-                        POPULAR
+                    <div className="dropdown">
+                        <div>
+                            <span>POPULAR</span>
+                            <img className="arrow" src="./style/assets/arrow.png" alt="arrow"/>
+                        </div>
+                        <ul>
+                            <li className="option">NEW</li>
+                            <li className="option">EDITORS CHOICE</li>
+                        </ul>
                     </div>
                     <Menu />
                 </div>
