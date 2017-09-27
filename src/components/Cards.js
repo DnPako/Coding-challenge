@@ -9,7 +9,6 @@ class Cards extends React.Component {
         this.props.displayData();
     }
 
-
     render() {
         const { restaurants } = this.props;
         console.log(restaurants);

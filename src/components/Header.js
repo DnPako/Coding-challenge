@@ -14,6 +14,7 @@ class Header extends React.Component {
                         <img className="picture circle" src="./style/assets/profile.png" alt="profile picture"/>
                     </div>
                 </div>
+
                 <div className="header-middle flex">
                     <img className="date circle" src="./style/assets/park.jpg" alt="date picture"/>
                     <div className="title">
@@ -26,6 +27,7 @@ class Header extends React.Component {
                         <img src="./style/assets/param.png" alt="Parameter" className="circle"/>
                     </div>
                 </div>
+
                 <div className="header-bottom flex">
                     <div className="dropdown">
                         <div>
@@ -37,6 +39,7 @@ class Header extends React.Component {
                             <li className="option">EDITORS CHOICE</li>
                         </ul>
                     </div>
+                    
                     <Menu />
                 </div>
             </header>
